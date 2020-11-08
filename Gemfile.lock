@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.1)
+    rbs (0.16.0)
+    retryable (3.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  rbs
+  retryable
+
+BUNDLED WITH
+   2.2.0.rc.2
