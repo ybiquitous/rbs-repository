@@ -12,10 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # TODO:
-        # > listen-3.2.1 requires ruby version >= 2.2.7, ~> 2.2, which is incompatible with
-        # ruby: [2.7, head]
-        ruby: [2.7]
+        ruby: [2.7, head]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
