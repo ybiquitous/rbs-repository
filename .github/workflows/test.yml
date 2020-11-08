@@ -20,4 +20,7 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
+      - run: bundle config set path vendor/bundle
+      - run: bundle install
+        working-directory: test
       - run: bundle exec rake
