@@ -1,2 +1,3 @@
-# rbs-repository
-My RBS repository for 3rd-party gems
+# RBS Repository
+
+My RBS repository for 3rd-party gems.
